@@ -9,7 +9,10 @@ const Technologies = () =>  (
     <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked withwt woriutgmwoutgwrutognworteig
+      I worked on an iOS app that relies on an AWS framework including services such as AppSync, Cognito, Lambda, 
+      S3, and DynamoDB. I have built a few personal websites using React, JavaScript, SCSS, and Next.js. Throughout my 
+      coursework, I learned operating systems, network and computer security, software engineering principals, and 
+      algorithms and data structures.
     </SectionText>
     <List>
       <ListItem>
