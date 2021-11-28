@@ -11,7 +11,7 @@ const Hero = (props) => (
         I'm Steven Khuu
       </SectionTitle>
       <SectionText>
-        I'm a computer science student at the University of Texas at Dallas with an interest in frontend development and software engineering.
+        I'm a computer science student at the University of Texas at Dallas with an interest in front-end development and software engineering.
       </SectionText>
     </LeftSection>
   </Section>

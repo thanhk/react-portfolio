@@ -11,7 +11,7 @@ const Technologies = () =>  (
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
       I have built a few personal websites using React, JavaScript, SCSS, and Next.js. Throughout my coursework, 
-      I learned operating systems, network and computer security, software engineering principals, and algorithms 
+      I learned operating systems, network and computer security, software engineering principles, and algorithms 
       and data structures.
     </SectionText>
     <List>
