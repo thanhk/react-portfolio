@@ -1,4 +1,5 @@
 ## Personal Portfolio
 
-[React-Portfolio](https://thanhk.github.io/react-portfolio/)
+[Link to my portfolio!](https://thanhk.github.io/react-portfolio/)
+
 
