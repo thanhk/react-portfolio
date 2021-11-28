@@ -3,11 +3,12 @@ import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillTwitterCircle } from 'react-icons/ai';
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
+const prefix = '/react-portfolio';
 
 const Header = () =>  (
   <Container>
     <Div1>
-      <Link href="/">
+      <Link href="https://thanhk.github.io/react-portfolio/">
         <a style={{display: "flex", alignItems: "center", color: 
       'white'}}>
           <AiFillGithub size="3rem" /> <Span>GitHub</Span>
@@ -16,17 +17,17 @@ const Header = () =>  (
     </Div1>
     <Div2>
       <li>
-        <Link href="#projects">
+        <Link href={prefix+'#projects'}>
           <NavLink>Projects</NavLink>
         </Link>
       </li>
       <li>
-        <Link href="#tech">
+        <Link href={prefix+'#tech'}>
           <NavLink>Technologies</NavLink>
         </Link>
       </li>
       <li>
-        <Link href="#about">
+        <Link href={prefix+'#about'}>
           <NavLink>About</NavLink>
         </Link>
       </li>
