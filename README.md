@@ -1,3 +1,4 @@
 ## Personal Portfolio
 
-![Portfolio Website](https://i.ibb.co/WgPMpts/image.png)
+[React-Portfolio](https://thanhk.github.io/react-portfolio/)
+
