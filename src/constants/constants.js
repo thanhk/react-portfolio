@@ -1,3 +1,4 @@
+const prefix = '/react-portfolio';
 export const projects = [
   {
     title: 'Rise of the Elements',
