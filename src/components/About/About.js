@@ -7,7 +7,8 @@ const About = () =>  (
         <br />
         <SectionTitle>About Me</SectionTitle>
         <SectionText>
-            asdfasdfasdf
+            I am a hard-working, detailed-oriented programmer. I love working on products that are visual and interacting 
+            with the customer.
         </SectionText>
         <SectionDivider />
     </Section>
