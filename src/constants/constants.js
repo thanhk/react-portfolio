@@ -12,7 +12,7 @@ export const projects = [
   {
     title: 'IoT Anomaly Detection App',
     description: "An iOS mobile app that displays data from devices and sensors using SwiftUI. Data is collected from a M5 Stack and stored in a S3 Bucket, where we programmed Six Sigma formulas in an AWS Lambda function (Python) to detect anomalies. The processed data is then stored and retrieved in a GraphQL API managed by AWS AppSync. Data between the frontend and backend is bridged using plugins from AWS Amplify.",
-      /*image: prefix + '/images/ios1.png',*/
+      image: prefix + '/images/ios1.png',
       tags: ['AWS', 'SwiftUI', 'GraphQL', 'Six Sigma', 'Python'],
     source: '/',
     visit: '/',
