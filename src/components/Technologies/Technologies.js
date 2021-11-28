@@ -1,5 +1,6 @@
 import React from 'react';
 import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { FaAws } from 'react-icons/fa'
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -9,10 +10,9 @@ const Technologies = () =>  (
     <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I worked on an iOS app that relies on an AWS framework including services such as AppSync, Cognito, Lambda, 
-      S3, and DynamoDB. I have built a few personal websites using React, JavaScript, SCSS, and Next.js. Throughout my 
-      coursework, I learned operating systems, network and computer security, software engineering principals, and 
-      algorithms and data structures.
+      I have built a few personal websites using React, JavaScript, SCSS, and Next.js. Throughout my coursework, 
+      I learned operating systems, network and computer security, software engineering principals, and algorithms 
+      and data structures.
     </SectionText>
     <List>
       <ListItem>
@@ -21,7 +21,7 @@ const Technologies = () =>  (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            React.js
+            React.js, SwiftUI
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -31,7 +31,17 @@ const Technologies = () =>  (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node.js and Databases
+            Node.js, Azure SQL, GraphQL
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <FaAws size="3rem" />
+        <ListContainer>
+          <ListTitle>AWS</ListTitle>
+          <ListParagraph>
+            Experience with <br />
+            DynamoDB, S3, AppSync, Amplify, Lambda, SNS, Cognito
           </ListParagraph>
         </ListContainer>
       </ListItem>
