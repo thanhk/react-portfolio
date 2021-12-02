@@ -21,7 +21,7 @@ const Technologies = () =>  (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            React.js, SwiftUI
+            React.js, Swift
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -41,7 +41,7 @@ const Technologies = () =>  (
           <ListTitle>AWS</ListTitle>
           <ListParagraph>
             Experience with <br />
-            DynamoDB, S3, AppSync, Amplify, Lambda, SNS, Cognito
+            DynamoDB, S3, AppSync, Amplify, Lambda, Cognito
           </ListParagraph>
         </ListContainer>
       </ListItem>

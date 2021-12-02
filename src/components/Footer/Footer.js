@@ -1,8 +1,8 @@
 import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillTwitterCircle } from 'react-icons/ai';
+import { AiFillFilePdf, AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillTwitterCircle } from 'react-icons/ai';
 
 import { SocialIcons } from '../Header/HeaderStyles';
-import { FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
+import { FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, SocialIconsContainer } from './FooterStyles';
 
 const Footer = () => {
   return (
@@ -14,7 +14,7 @@ const Footer = () => {
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:snk180000@utdallas.edu">snk180000@utdallas.edu</LinkItem>
+          <LinkItem href="mailto:stevenkhuu1999@gmail.com">stevenkhuu1999@gmail.com</LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
@@ -30,6 +30,9 @@ const Footer = () => {
         <SocialIcons href="https://twitter.com/steammbun" target="_blank">
           <AiFillTwitterCircle size="3rem" />
         </SocialIcons>
+        <SocialIcons href="https://drive.google.com/file/d/1tHJ1POsGxwQGSuzyZMyCEfpl1T41NA6O/view?usp=sharing" target="_blank">
+        <AiFillFilePdf size="3rem" />
+      </SocialIcons>
       </SocialIconsContainer>
     </FooterWrapper>
   );
