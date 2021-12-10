@@ -30,7 +30,7 @@ const Footer = () => {
         <SocialIcons href="https://twitter.com/steammbun" target="_blank">
           <AiFillTwitterCircle size="3rem" />
         </SocialIcons>
-        <SocialIcons href="https://drive.google.com/file/d/1tHJ1POsGxwQGSuzyZMyCEfpl1T41NA6O/view?usp=sharing" target="_blank">
+        <SocialIcons href="https://drive.google.com/file/d/1IZ6huUrKVgJBRXOCBor_VNIYHQyL3OqI/view?usp=sharing" target="_blank">
         <AiFillFilePdf size="3rem" />
       </SocialIcons>
       </SocialIconsContainer>
